@@ -1,4 +1,4 @@
-{
+[{
 	label: 'Encrypt All Strings',
 	detail: "Encrypts all strings in the file where they are defined. This may negatively affect performance if strings are freqently used. Disables the WS_ENCRYPT_STRING macro."
 },
@@ -17,4 +17,4 @@
 {
 	label: "Code Optimizations [BETA]",
 	detail: "Attempts to remove dead/unused code and expressions in the script."
-}
+}]
