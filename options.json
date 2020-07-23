@@ -1,0 +1,22 @@
+[
+			{
+				label: 'Encrypt All Strings',
+				detail: "Encrypts all strings in the file where they are defined. This may negatively affect performance if strings are freqently used. Disables the WS_ENCRYPT_STRING macro."
+			},
+			{
+				label: "Anti Constant Dump",
+				detail: "Encrypts some constants in the file to prevent them from being dumped via common dumping methods. This doesn't completely protect your constants, but helps a lot."
+			},
+			{
+				label:"Generate Junk Code",
+				detail: "Generates useless code in the output file. This improves security slightly but may also result in slower speeds and a larger output file."
+			},
+			{
+				label: "Basic String Encryption",
+				detail: "Like Encrypt All Strings, but uses a less intensive algorithm. This will only increase file size and load time. Disables the WS_ENCRYPT_STRING macro."
+			},
+			{
+				label: "Code Optimizations [BETA]",
+				detail: "Attempts to remove dead/unused code and expressions in the script."
+			}
+]
