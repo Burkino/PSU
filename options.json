@@ -1,6 +1,7 @@
 [
    {
       "label":"Encrypt All Strings",
+      "description":"Hello",
       "detail":"Encrypts all strings in the file where they are defined. This may negatively affect performance if strings are freqently used. Disables the WS_ENCRYPT_STRING macro."
    },
    {
