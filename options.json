@@ -18,13 +18,5 @@
    {
       "label":"Code Optimizations [BETA]",
       "detail":"Attempts to remove dead/unused code and expressions in the script."
-   },
-   {
-      "label":"text",
-      "detail":"test"
-   },
-   {
-      "label":"why the fuck",
-      "detail":"does it work now"
    }
 ]
