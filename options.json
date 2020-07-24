@@ -22,5 +22,9 @@
    {
       "label":"text",
       "detail":"test"
+   },
+   {
+      "label":"why the fuck",
+      "detail":"does it work now"
    }
 ]
