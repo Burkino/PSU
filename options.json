@@ -18,4 +18,5 @@
       "label":"Extended Syntax (may not be part of the api yet?)",
       "description":"ExtendedSyntax",
       "detail":"Enables compound operators, bitwise operators, and other special operators. This may increase processing time on larger files."
+   }
 ]
