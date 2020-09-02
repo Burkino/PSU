@@ -15,8 +15,14 @@
       "detail":"Generates the ULTIMATE output. This improves security slightly but may also result in slower speeds and a larger output file."
    },
    {
-      "label":"Extended Syntax (may not be part of the api yet?)",
+      "label":"Extended Syntax",
       "description":"ExtendedSyntax",
       "detail":"Enables compound operators, bitwise operators, and other special operators. This may increase processing time on larger files."
+   },
+   {
+      "label":"Disable Super Operators",
+      "description":"DisableSuperOperators",
+      "detail":"Disables generation of Super Operators."
    }
 ]
+
