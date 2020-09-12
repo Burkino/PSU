@@ -1,0 +1,67 @@
+- Extended Syntax:
+      [-] continue Keyword
+      [-] Binary/Octal Literals (Example: 0b001 & 0B001 
+      (Binary), 0o11 & 0O01 (Octal)
+      [-] Digit Separator (Example: 1_000_000 == 1000000
+      [-] Integer Division: \\ | 3 // 2 -> 1
+      [-] Bitwise Operators: &, |, ~ (XOR), ~ (NOT), <<, >>
+      [-] Increment ++: ++X, X++
+      [-] Compound Operators: +=, -=, *=, /=, %=, ^=, ..=, 
+      //=, &=, |=, ~=, <<=, >>=
+- Macros:
+      [-] PSU_GETSTACK() - Returns the VM's Stack
+      [-] PSU_ENCRYPT_STRING("<Important String>") 
+       - Encrypts the passed string making it 
+      [-] harder to dump (slows performance).
+      [-] PSU_CRASH() - Crashes the VM.
+      [-] PSU_INLINE_FUNCTION(function(...) .... end) -
+      Inlines the passed function where it is used 
+      (PREMIUM ONLY).
+      [-] PSU_FAST_EXECUTION(function() end) 
+       - Optimized the passed chunk to run faster 
+      (PREMIUM ONLY).
+- Api:
+      [-] Automated Access to Obfuscator.
+      [-] 50 requests per day (Increasable)
+- Vanity Bytecode:
+      [-] Chinese
+      [-] Arabic
+      [-] Korean
+      [-] Emoji
+      [-] Greek
+      [-] Symbols 
+      [-] #1 Symbols (unicode)
+      [-] #2 Symbols (unicode)
+      [-] #3 Symbols (unicode)
+      [-] Default (Base36)
+- Settings: 
+      [-] (Encrypt All Strings)
+          Encrypts all strings in the file where they are 
+          defined This setting should NOT be used in large 
+          scripts and will cause a large performance loss
+          and an increase in obfuscation time.
+      [-] (Disable Super Operators)
+          Disables generation of Super Operators. This may 
+          fix some errors in scripts, but will also, decrease
+          performance.
+                [-] (Vanity Bytecode)
+          Replaces the normal Base36 formatted bytecode with 
+          a custom skin. Type the mode you would like to use 
+          with the file you upload. 
+          Available Modes: Chinese, Arabic, Korean, Emoji
+          Greek, Symbols #1, Symbols #2,  Symbols #3, Default 
+          (Base36)
+
+      [-] (Disable CFlow Obfuscation)
+          Disables control flow based obfuscation. This may
+          fix some errors in scripts, but will
+          also, decrease security.
+      [-] (Constant Protection)
+          Attempts to make string constants harder to dump. 
+          Constants can always be dumped, but this option 
+          will make it harder with little to no effect on 
+          security.
+      [-] (Maximum Security)
+          Uses more aggressive forms of security to prevent 
+          deobfuscation. This will GREATLY affect performance 
+          speed and is NOT recommended on large scripts.
