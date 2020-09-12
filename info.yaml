@@ -25,19 +25,19 @@
 \      [-] PSU_FAST_EXECUTION(function() end)                                                                                                                          : 
 \            Optimized the passed chunk to run faster (PREMIUM ONLY).
 | Api:
-      [-] Automated Access to Obfuscator.
-      [-] 50 requests per day (Increasable) 
+\      [-] Automated Access to Obfuscator.
+\      [-] 50 requests per day (Increasable) 
 | Vanity Bytecode:
-      [-] Chinese
-      [-] Arabic
-      [-] Korean
-      [-] Emoji
-      [-] Greek
-      [-] Symbols 
-      [-] #1 Symbols (unicode)
-      [-] #2 Symbols (unicode)
-      [-] #3 Symbols (unicode)
-      [-] Default (Base36)
+\      [-] Chinese
+\      [-] Arabic
+\      [-] Korean
+\      [-] Emoji
+\      [-] Greek
+\      [-] Symbols 
+\      [-] #1 Symbols (unicode)
+\      [-] #2 Symbols (unicode)
+\      [-] #3 Symbols (unicode)
+\      [-] Default (Base36)
 | Settings: 
 \      [-] Encrypt All Strings                                                                                                                                         :
 \          Encrypts all strings in the file where they are defined This setting should NOT be used in large scripts and will cause a large performance loss and an increase in obfuscation time.
