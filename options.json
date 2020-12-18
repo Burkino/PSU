@@ -1,28 +1,55 @@
 [
-   {
-      "label":"Encrypt All Strings",
-      "description":"EncryptAllStrings",
-      "detail":"Encrypts all strings in the file where they are defined. This setting should NOT be used in large scripts and will cause a large performance loss and increase in obfuscation time."
-   },
-   {
-      "label":"Disable Super Operators",
-      "description":"DisableSuperOperators",
-      "detail":"Disables generation of Super Operators. This may fix some errors in scripts, but will also decrease performance."
-   },
-   {
-      "label":"Disable CFlow Obfuscation",
-      "description":"DisableCFlowObfuscation",
-      "detail":"Disables control flow based obfuscation. This may fix some errors in scripts, but will also decrease security."
-   },
-   {
-      "label":"Enable Maximum Security",
-      "description":"MaximumSecurityEnabled",
-      "detail":"Uses more aggressive forms of security to prevent deobfuscation. This will GREATLY affect performance speed and is NOT recommended on large scipts."
-   },
-   {
-      "label":"Enhanced Output",
-      "description":"EnhancedOutput",
-      "detail":"Generates the ULTIMATE output. This improves security slightly but may also result in slower speeds and a larger output file."
-   }
-]
-
+    {
+       "label":"Disable Super Operators",
+       "description":"DisableSuperOperators",
+       "detail":"Disables the generation of super operators; this fixes some of the problems when using the obfuscator, but may decrease the performance of your script."
+    },
+    {
+       "label":"Maximum Security Enabled",
+       "description":"MaximumSecurityEnabled",
+       "detail":"Enables Max Security to prevent deobfuscation and avoid hooking the Equality Opcode."
+    },
+    {
+       "label":"Control Flow Obfuscation",
+       "description":"ControlFlowObfuscation",
+       "detail":"",
+       "picked": true
+    },
+    {
+       "label":"Constant Encryption",
+       "description":"ConstantEncryption",
+       "detail":""
+    },
+    {
+       "label":"Encrypt All Strings",
+       "description":"EncryptAllStrings",
+       "detail":"Encrypt All Strings encrypts every string that is being obfuscated by PSU Obfuscator. May decrease performance drastically."
+    },
+    {
+       "label":"Disable All Macros",
+       "description":"DisableAllMacros",
+       "detail":""
+    },
+    {
+       "label":"Enhanced Output",
+       "description":"EnhancedOutput",
+       "detail":"Enables \"Enhanced Output\"; this will make your file size very larger and can affect performance."
+    },
+    {
+       "label":"Enhanced Constant Encryption",
+       "description":"EnhancedConstantEncryption",
+       "detail":""
+    },
+    {
+       "label":"Compressed Output",
+       "description":"CompressedOutput",
+       "detail":""
+    },
+    {
+       "label":"Premium Format",
+       "description":"PremiumFormat",
+       "detail":"This uses a more complex script structure. This is best paired with PSU_MAX_SECURITY Macro."
+    }
+ ]
+ 
+ 
