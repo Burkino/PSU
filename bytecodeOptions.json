@@ -1,8 +1,7 @@
 [
    {
       "label":"Default",
-      "description":"default",
-      "default": true
+      "description":"default"
    },
    {
       "label":"Chinese",
