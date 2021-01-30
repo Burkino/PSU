@@ -1,38 +1,46 @@
 [
    {
       "label":"Default",
-      "description":"default"
+      "description":"Default"
    },
    {
       "label":"Chinese",
-      "description":"chinese"
+      "description":"Chinese"
    },
    {
       "label":"Arabic",
-      "description":"arabic"
+      "description":"Arabic"
    },
    {
       "label":"Korean",
-      "description":"korean"
+      "description":"Korean"
    },
    {
       "label":"Emoji",
-      "description":"emoji"
+      "description":"Emoji"
    },
    {
       "label":"Greek",
-      "description":"greek"
+      "description":"Greek"
    },
    {
       "label":"Symbols #1",
-      "description":"symbols1"
+      "description":"Symbols1"
    },
    {
       "label":"Symbols #2",
-      "description":"symbols2"
+      "description":"Symbols2"
    },
    {
       "label":"Symbols #3",
-      "description":"symbols3"
+      "description":"Symbols3"
+   },
+   {
+      "label":"Hex Upper",
+      "description":"HexUpper"
+   },
+   {
+      "label":"Hex Lower",
+      "description":"HexLower"
    }
 ]
